@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>eLearning Website</title>
+  </head>
+  <body>
+    <section class="header" id="home">
+      <nav>
+        <a href="index.html">
+          <img
+            class="header-logo"
+            src="../Images/vippng.com-vmp-png-2366204.png"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>You can learn anything.</h1>
+        <p>
+          Build a deep, solid understanding in HTML, CSS, JavaScript, React,
+          Bootstrap, and more.
+        </p>
+        <a href="#courses" class="hero-btn">Start Learning Here.</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1>ABOUT</h1>
+      <p style="font-size: 16px">
+        We’re a nonprofit with the mission to provide a free, world-class
+        education for anyone, anywhere.
+      </p>
+      <div class="row">
+        <div class="about-col">
+          <h3>Personalized learning</h3>
+          <p>
+            Students practice at their own pace, first filling in gaps in their
+            understanding and then accelerating their learning.
+          </p>
+        </div>
+        <div class="about-col">
+          <h3>Trusted content</h3>
+          <p>
+            Created by experts,Academy’s library of trusted, standards-aligned
+            practice and lessons covers K-12 through early college and more.
+          </p>
+        </div>
+        <div class="about-col">
+          <h3>Tools to empower teachers</h3>
+          <p>
+            With this Academy, teachers can identify gaps in their students’
+            understanding, tailor instruction, and meet the needs of every
+            student.
+          </p>
+        </div>
+        <div class="about-col">
+          <h3>Maintain Editorial Independence</h3>
+          <p>
+            The data sources we use, which include the National Center for
+            Education Statistics, the Common Data Set Initiative, and
+            Peterson’s.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="courses" id="courses">
+      <h1>COURSES</h1>
+      <p>
+        Take the next step in your career with a world class learning
+        experience.
+      </p>
+      <div class="courses-container">
+        <div class="cards">
+          <div class="image">
+            <img src="https://img-c.udemycdn.com/course/240x135/1121334_b967.jpg" alt="" />
+          </div>
+          <div class="title">
+            <h1>HTML5</h1>
+          </div>
+          <div class="des">
+            <p>
+              Build Responsive Real-World Websites with <strong>HTML5</strong> web design by building a stunning website
+              for your portfolio! Includes flexbox and CSS Grid
+            </p>
+            <button class="courses-btn">Read More...</button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="image">
+            <img src="https://img-c.udemycdn.com/course/240x135/1561458_7f3b_2.jpg" alt="" />
+          </div>
+          <div class="title">
+            <h1>CSS3</h1>
+          </div>
+          <div class="des">
+            <p>Advanced CSS and Sass: Flexbox, Grid and More!
+            The most advanced and modern <strong>CSS</strong> course on the internet: master flexbox, 
+            CSS Grid and so much more.
+            </p>
+            <button class="courses-btn">Read More...</button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="image">
+            <img src="https://img-c.udemycdn.com/course/240x135/1743420_0062.jpg" alt="" />
+          </div>
+          <div class="title">
+            <h1>JavaScript</h1>
+          </div>
+          <div class="des">
+            <p>
+              The modern <strong>JavaScript</strong> course for everyone!. 
+              Many courses in one!. Modular learning sections & 10 
+              real world projects with pure JavaScript
+            </p>
+            <button class="courses-btn">Read More...</button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="image">
+            <img src="https://img-c.udemycdn.com/course/240x135/1362070_b9a1_2.jpg" alt="" />
+          </div>
+          <div class="title">
+            <h1>Reactjs</h1>
+          </div>
+          <div class="des">
+            <p>React - The Complete Guide
+            Dive in and learn <strong>React.js</strong> from scratch! Learn Reactjs, Hooks, Redux, 
+            React Routing, Animations, Next.js and way more!
+            </p>
+            <button class="courses-btn">Read More...</button>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+      <h1>
+        For more information, please let us know <br />
+        and we will reach back to you.
+      </h1>
+      <a href="#contact" class="hero-btn">Contact Us</a>
+    </section>
+
+
+    <section class="footer">
+      <h3>
+        “Education is the most powerful weapon you can use to change the world.”
+      </h3>
+      <h4>
+        <em>
+          We’re a leading marketplace platform for learning and teaching online. Please visit our site...</em
+        >
+      </h4>
+      <div class="icon">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href=" https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a>
+        <a href=" https://twitter.com/home?lang=en"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/AnandPasodi?tab=repositories"><i class="fa fa-github"></i></a>
+      </div>
+      <p>Made by Anand Pasodi <i class="fa fa-copyright"></i></p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
